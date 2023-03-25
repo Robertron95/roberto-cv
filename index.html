@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberto Alarcón</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
@@ -52,7 +56,7 @@
                     Me gusta mucho programar videojuegos en Unity, desarrollar
                     páginas web en HTML y realizar bases de datos en MySQL además de programas en Java.
                 </p>
-                <button class="profile-btn">Descargar cv</button>
+                <a class="profile-btn" href="/Currículum vitae Roberto Alarcón (3).pdf" download>Descargar cv</button>
             </div>
             <span class="profile-img-section">
                 <img
@@ -180,7 +184,7 @@
                     <p class="contact-text">Escribiendo un mensaje, te contestaré</p>
                 </div>
             </div>
-            <form action="" class="contact-form">
+            <form class="contact-form" name="contact" netlify>
                 <div class="contact-form-group">
                     <label for="name">Nombre</label>
                     <input required type="text" name="name" id="name">
