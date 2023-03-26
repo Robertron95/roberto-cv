@@ -12,11 +12,13 @@
     width: 100%;
     position: relative;
     top: 2px;
+    color: var(--primary-color);
 }
 
 .box_bottom {
     transform: scaleY(-1);
     top: -2px;
+    color: var(--primary-color);
 }
 
 .courses-title {
